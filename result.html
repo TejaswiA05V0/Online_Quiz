@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Your Score</h2>
+
+        <div class="score-box">
+            <h1>{{ score }} / {{ total }}</h1>
+        </div>
+
+        <div class="performance-message">
+            <h3>{{ message }}</h3>
+        </div>
+
+        <a href="/dashboard">
+            <button>Back to Dashboard</button>
+        </a>
+
+    </div>
+
+</body>
+
+</html>

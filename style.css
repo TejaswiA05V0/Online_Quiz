@@ -1,0 +1,126 @@
+/* ===== BODY GRADIENT BACKGROUND ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ===== COMMON CARD DESIGN ===== */
+.container {
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    margin-bottom: 25px;
+    color: #4e73df;
+}
+
+/* ===== INPUT FIELDS ===== */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* ===== BUTTON STYLE ===== */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #2e59d9;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #1cc88a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== QUIZ PAGE SPECIFIC ===== */
+.quiz-container {
+    background: white;
+    padding: 40px;
+    width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 25px;
+}
+
+.options {
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.options div {
+    margin: 8px 0;
+}
+
+/* Dashboard buttons vertical alignment */
+.dashboard-buttons {
+    margin-top: 20px;
+}
+
+.dashboard-buttons a {
+    display: block;
+    margin: 10px 0;
+}
+
+.logout-btn {
+    background: #e74a3b;
+}
+
+.logout-btn:hover {
+    background: #c0392b;
+}
+
+/* Result Page Styling */
+.score-box {
+    margin: 20px 0;
+}
+
+.score-box h1 {
+    font-size: 40px;
+    color: #4e73df;
+    margin: 10px 0;
+}
+
+/* Performance message styling */
+.performance-message h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #1cc88a;
+}
